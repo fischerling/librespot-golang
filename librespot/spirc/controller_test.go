@@ -3,9 +3,9 @@ package spirc
 import (
 	"bytes"
 	"github.com/golang/protobuf/proto"
-	"github.com/librespot-org/librespot-golang/Spotify"
-	"github.com/librespot-org/librespot-golang/librespot/connection"
-	"github.com/librespot-org/librespot-golang/librespot/mercury"
+	"github.com/fischerling/librespot-golang/Spotify"
+	"github.com/fischerling/librespot-golang/librespot/connection"
+	"github.com/fischerling/librespot-golang/librespot/mercury"
 	"testing"
 )
 

@@ -13,7 +13,7 @@ This fork contains changes that are more compatible with go.mod, while removing 
 This package can be installed using:
 
 ```sh
-go get github.com/librespot-org/librespot-golang/librespot
+go get github.com/fischerling/librespot-golang/librespot
 ```
 
 ### Usage
@@ -21,7 +21,7 @@ go get github.com/librespot-org/librespot-golang/librespot
 To use the package look at the example micro-controller (for Spotify Connect). For the CLI, install the main package:
 
 ```sh
-go get -u github.com/librespot-org/librespot-golang
+go get -u github.com/fischerling/librespot-golang
 ```
 
 ### Building for mobile
@@ -31,7 +31,7 @@ The package `librespotmobile` contains bindings suitable for use with Gomobile, 
 To get started, install gomobile, and simply run (for Android):
 
 ```sh
-cd $GOPATH/src/github.com/librespot-org/librespot-golang
+cd $GOPATH/src/github.com/fischerling/librespot-golang
 gomobile init -ndk /path/to/android-ndk
 gomobile bind librespotmobile
 ```

@@ -6,8 +6,8 @@ import (
 	"net/url"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/librespot-org/librespot-golang/Spotify"
-	"github.com/librespot-org/librespot-golang/librespot/metadata"
+	"github.com/fischerling/librespot-golang/Spotify"
+	"github.com/fischerling/librespot-golang/librespot/metadata"
 )
 
 func (m *Client) mercuryGet(url string) []byte {

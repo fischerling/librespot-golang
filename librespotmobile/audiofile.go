@@ -1,6 +1,6 @@
 package librespotmobile
 
-import "github.com/librespot-org/librespot-golang/librespot/player"
+import "github.com/fischerling/librespot-golang/librespot/player"
 
 // MobileAudioFile is a gomobile-compliant subset of the AudioFile struct. It
 // is allocated by the MobilePlayer struct and functions.

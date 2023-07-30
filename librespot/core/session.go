@@ -9,13 +9,13 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/librespot-org/librespot-golang/Spotify"
-	"github.com/librespot-org/librespot-golang/librespot/connection"
-	"github.com/librespot-org/librespot-golang/librespot/crypto"
-	"github.com/librespot-org/librespot-golang/librespot/discovery"
-	"github.com/librespot-org/librespot-golang/librespot/mercury"
-	"github.com/librespot-org/librespot-golang/librespot/player"
-	"github.com/librespot-org/librespot-golang/librespot/utils"
+	"github.com/fischerling/librespot-golang/Spotify"
+	"github.com/fischerling/librespot-golang/librespot/connection"
+	"github.com/fischerling/librespot-golang/librespot/crypto"
+	"github.com/fischerling/librespot-golang/librespot/discovery"
+	"github.com/fischerling/librespot-golang/librespot/mercury"
+	"github.com/fischerling/librespot-golang/librespot/player"
+	"github.com/fischerling/librespot-golang/librespot/utils"
 )
 
 // Session represents an active Spotify connection
